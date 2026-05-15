@@ -1,0 +1,33 @@
+# Raw downloaded data (large — re-downloadable via run_pipeline.py)
+data/raw/
+
+# Processed cache files (re-generatable from raw)
+data/processed/*.parquet
+
+# Results (keep CSVs in version control; exclude large Plotly HTML)
+data/results/report.html
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
